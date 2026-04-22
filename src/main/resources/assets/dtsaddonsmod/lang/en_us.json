@@ -6,5 +6,8 @@
 
   "item.dtsaddonsmod.hauntedmetal": "Haunted Metal",
 
-  "block.dtsaddonsmod.oldcrate": "Old Crate"
+  "block.dtsaddonsmod.oldcrate": "Old Crate",
+
+  "creativetab.dtsaddonsmod.fnaf_items": "FNAF Items",
+  "creativetab.dtsaddonsmod.fnaf_blocks": "FNAF Blocks"
 }
