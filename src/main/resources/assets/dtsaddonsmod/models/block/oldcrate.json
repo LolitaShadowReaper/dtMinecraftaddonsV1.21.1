@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "dtsaddonmod:block/oldcrate"
+    "all": "dtsaddonsmod:block/oldcrate"
   }
 }
