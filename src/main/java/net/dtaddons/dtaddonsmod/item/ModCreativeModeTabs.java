@@ -24,6 +24,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.REMNANT);
                         output.accept(ModItems.CORPSEBAG);
                         output.accept(ModItems.HAUNTEDMETAL);
+                        output.accept(ModItems.DOUGH);
+                        output.accept(ModItems.CHEESYPIZZA);
+                        output.accept(ModItems.PEPPERONIPIZZA);
 
                     }).build());
 
@@ -33,6 +36,26 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.dtsaddonsmod.fnaf_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.OLDCRATE);
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> TF2_ITEMS_TAB = CREATIVE_MODE_TAB.register("tf2_items_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AUSTRALIUM_ORE))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DTsAddonsMod.MOD_ID, "fnaf_blocks_tab"))
+                    .title(Component.translatable("creativetab.dtsaddonsmod.tf2_items"))
+                    .displayItems((itemDisplayParameters, output) -> {
+
+
+
+                    }).build());
+
+    public static final Supplier<CreativeModeTab> TF2_BLOCKS_TAB = CREATIVE_MODE_TAB.register("tf2_blocks_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.AUSTRALIUM_ORE))
+                    .withTabsBefore(ResourceLocation.fromNamespaceAndPath(DTsAddonsMod.MOD_ID, "tf2_items_tab"))
+                    .title(Component.translatable("creativetab.dtsaddonsmod.tf2_blocks"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.AUSTRALIUM_ORE);
 
 
                     }).build());

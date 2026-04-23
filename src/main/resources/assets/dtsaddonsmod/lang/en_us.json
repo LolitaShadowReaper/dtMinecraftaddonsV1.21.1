@@ -6,8 +6,19 @@
 
   "item.dtsaddonsmod.hauntedmetal": "Haunted Metal",
 
+  "item.dtsaddonsmod.cheesypizza": "Cheesy Pizza",
+  "item.dtsaddonsmod.pepperonipizza": "Pepperoni Pizza",
+  "item.dtsaddonsmod.dough": "Pizza Dough",
+
   "block.dtsaddonsmod.oldcrate": "Old Crate",
+  "block.dtsaddonsmod.australium_ore": "Australium Ore",
+
+
 
   "creativetab.dtsaddonsmod.fnaf_items": "FNAF Items",
-  "creativetab.dtsaddonsmod.fnaf_blocks": "FNAF Blocks"
+  "creativetab.dtsaddonsmod.fnaf_blocks": "FNAF Blocks",
+  "creativetab.dtsaddonsmod.tf2_items": "TF2 Items",
+  "creativetab.dtsaddonsmod.tf2_blocks": "TF2 Blocks",
+
+  "tooltip.dtsaddonsmod.remnant.tooltip": "§4How did you get this?§r"
 }

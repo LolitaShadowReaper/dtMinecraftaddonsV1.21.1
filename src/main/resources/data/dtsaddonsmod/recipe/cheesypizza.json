@@ -1,0 +1,31 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "dtsaddonsmod:dough"
+    },
+
+    "M": {
+
+      "item": "minecraft:milk_bucket"
+
+    }
+
+
+
+
+
+  },
+
+  "pattern": [
+    " M ",
+    "###"
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "dtsaddonsmod:cheesypizza"
+  }
+
+}

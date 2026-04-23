@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dtsaddonsmod:block/australium_ore"
+  }
+}

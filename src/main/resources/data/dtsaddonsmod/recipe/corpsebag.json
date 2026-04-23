@@ -1,0 +1,27 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:rotten_flesh"
+    },
+
+    "W": {
+
+      "item": "minecraft:black_wool"
+
+    }
+
+  },
+
+  "pattern": [
+    "W# ",
+    " W "
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "dtsaddonsmod:corpsebag"
+  }
+
+}
